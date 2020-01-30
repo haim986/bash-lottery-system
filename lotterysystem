@@ -1,0 +1,12 @@
+echo "welcome to lottey system, please enter until 100"
+read n
+if [ $n -eq 98 ];
+then
+echo "your number is the lucky number"
+elif [ $n -gt 100 ];
+then
+echo "your number is greater than 100"
+else
+echo "your number is not the lucky number"
+fi
+
