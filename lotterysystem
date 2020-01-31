@@ -1,4 +1,4 @@
-echo "welcome to lottey system, please enter until 100"
+echo "welcome to lottey system, please enter a number until 100"
 read n
 if [ $n -eq 98 ];
 then
